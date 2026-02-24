@@ -5,32 +5,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manuais Eletrovogel - Equipamentos Vogel</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f8f9fa; color: #333; }
-    h1 { color: #0056b3; }
-    .container { max-width: 1200px; margin: auto; }
-    iframe { width: 100%; height: 90vh; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    ul { list-style: none; padding: 0; }
-    li { margin: 10px 0; }
-    a { color: #007bff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background: #f4f6f9; 
+      color: #333; 
+    }
+    header {
+      background: linear-gradient(to bottom, #000000, #006633); /* Preto no topo, verde Vogel na base */
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    .logo {
+      font-size: 3em;
+      font-weight: bold;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+    .logo span {
+      color: #00ff00; /* Verde mais claro para destaque na estrela/plug */
+    }
+    .container { 
+      max-width: 1200px; 
+      margin: 20px auto; 
+      padding: 0 20px;
+    }
+    h1 { 
+      color: #006633; /* Verde Vogel principal */
+      text-align: center; 
+    }
+    h2 { 
+      color: #006633; 
+      border-bottom: 2px solid #006633; 
+      padding-bottom: 8px; 
+    }
+    iframe { 
+      width: 100%; 
+      height: 80vh; 
+      border: 1px solid #ccc; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+    }
+    ul { 
+      list-style: none; 
+      padding: 0; 
+    }
+    li { 
+      margin: 12px 0; 
+      font-size: 1.1em; 
+    }
+    a { 
+      color: #006633; 
+      text-decoration: none; 
+    }
+    a:hover { 
+      text-decoration: underline; 
+    }
+    footer { 
+      background: #006633;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.95em;
+    }
+    .empresa-info {
+      margin: 10px 0;
+    }
   </style>
 </head>
 <body>
+
+  <header>
+    <h1 class="logo">VOGEL<span>⚡</span></h1> <!-- Use ⚡ como símbolo de raio/plug; substitua por img se subir a logo real -->
+    <p>Equipamentos de Alta Qualidade</p>
+  </header>
+
   <div class="container">
     <h1>Manuais Eletrovogel</h1>
-    <p>Manuais técnicos dos equipamentos Vogel para a equipe Eletrovogel.</p>
+    <p style="text-align: center;">Manuais técnicos dos equipamentos Vogel para a equipe Eletrovogel.</p>
 
-    <h2>Manual em destaque</h2>
+    <h2>Manual em Destaque: Afiador de Eletrodo de Tungstênio VOGEL AVT 125 - v1.0</h2>
     <iframe src="pdfs/manual-afiador-de-eletrodo-de-tungstenio-vogel-avt125.pdf" title="Manual Afiador AVT 125"></iframe>
 
-    <h2>Outros manuais</h2>
+    <h2>Outros Manuais Disponíveis</h2>
     <ul>
-      <li><a href="pdfs/manual-afiador-de-eletrodo-de-tungstenio-vogel-avt125.pdf" target="_blank">Manual Afiador de Eletrodo de Tungstênio VOGEL AVT 125 - v1.0 (abrir em nova aba)</a></li>
-      <!-- Adicione mais aqui quando subir outros PDFs -->
-      <!-- Exemplo: <li><a href="pdfs/outro-manual.pdf">Outro Manual</a></li> -->
+      <li><a href="pdfs/manual-afiador-de-eletrodo-de-tungstenio-vogel-avt125.pdf" target="_blank">Manual Afiador AVT 125 (abrir em nova aba ou baixar)</a></li>
+      <li><a href="pdfs/manual-prensa-50t-v2.1.pdf" target="_blank">Manual Prensa Hidráulica 50T - v2.1 (abrir em nova aba ou baixar)</a></li>
+      <!-- Adicione mais linhas aqui quando subir outros PDFs -->
     </ul>
-
-    <p><small>Última atualização: Fevereiro 2026 | <a href="https://github.com/macbesen/eletrovogel-manuais">Ver repositório no GitHub</a></small></p>
   </div>
+
+  <footer>
+    <div class="empresa-info">
+      <strong>Fabricante:</strong> VOGEL Indústria e Comércio Ltda.<br>
+      <strong>Endereço:</strong> Rua Antônio Carlos Ferreira, 575 - Nova Brasília - Jaraguá do Sul/SC - CEP 89213-371<br>
+      <strong>Contato:</strong> (47) 3433-6437 | <a href="mailto:vendas@eletrovogel.com.br" style="color: #ffffff;">vendas@eletrovogel.com.br</a>
+    </div>
+    <p>Última atualização: 24/02/2026 | Responsável: Maciel (@macbesen)<br>
+    <a href="https://github.com/macbesen/eletrovogel-manuais" style="color: #ffffff;">Ver repositório no GitHub</a> | Dúvidas? Abra uma Issue ou me chame no WhatsApp.</p>
+  </footer>
+
 </body>
 </html>
