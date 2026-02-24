@@ -4,8 +4,8 @@ Repositório com manuais técnicos dos equipamentos Vogel para uso da equipe Ele
 
 ## Manuais disponíveis
 
-- [Manual Afiador de Eletrodo de Tungnstênio VOGEL AVT 125 - v1.0](MANUAL AFIADOR DE ELETRODO DE TUNGSTÊNIO VOGEL AVT 125.pdf)  
-  Link direto: https://raw.githubusercontent.com/macbesen/eletrovogel-manuais/main/pdfs/MANUAL AFIADOR DE ELETRODO DE TUNGSTÊNIO VOGEL AVT 125.pdf
+- [manual afiador de eletrodo de tungstenio vogel avt125.pdf - v1.0](manual afiador de eletrodo de tungstenio vogel avt125.pdf)  
+  Link direto: https://raw.githubusercontent.com/macbesen/eletrovogel-manuais/main/pdfs/manual afiador de eletrodo de tungstenio vogel avt125.pdf
 
 - [Manual Prensa Hidráulica 50T - v2.1](pdfs/Manual-Prensa-50T-v2.1.pdf)  
   Link direto: https://raw.githubusercontent.com/macbesen/eletrovogel-manuais/main/pdfs/Manual-Prensa-50T-v2.1.pdf
